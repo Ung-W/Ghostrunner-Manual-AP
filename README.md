@@ -1,5 +1,4 @@
 # Ghostruner Manual AP
-Ghostrunner is a hardcore FPP (First Person Perspective) slasher packed with lightning-fast action, set in a grim, cyberpunk megastructure. Climb Dharma Tower, humanity’s last shelter, after a world-ending cataclysm. Make your way up from the bottom to the top, confront the tyrannical Keymaster, and take your revenge.
 ## Requirement
 > [GRUnlocker](https://github.com/Dmgvol/GRUnlocker) : 
 - Needed to reset the Collectibles as they dissapear once collected => type 15 when prompted
