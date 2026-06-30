@@ -1,0 +1,631 @@
+[
+  {
+    "name": "01 - (An Awakening)",
+    "region": "01 - An Awakening",
+    "category": [
+      "01 - An Awakening"
+    ],
+    "requires": []
+  },
+  {
+    "name": "01 - Butterfly Knife",
+    "region": "01 - An Awakening",
+    "category": [
+      "01 - An Awakening"
+    ],
+    "requires": []
+  },
+  {
+    "name": "02 - (A Look Inside)",
+    "region": "02 - A Look Inside",
+    "category": [
+      "02 - A Look Inside"
+    ],
+    "requires": []
+  },
+  {
+    "name": "02 - Propaganda Flyer",
+    "region": "02 - A Look Inside",
+    "category": [
+      "02 - A Look Inside"
+    ],
+    "requires": []
+  },
+  {
+    "name": "03 - (The Climb)",
+    "region": "03 - The Climb",
+    "category": [
+      "03 - The Climb"
+    ],
+    "requires": []
+  },
+  {
+    "name": "03 - Audio Log (The Plan)",
+    "region": "03 - The Climb",
+    "category": [
+      "03 - The Climb"
+    ],
+    "requires": []
+  },
+  {
+    "name": "03 - Hood Ornament Earring",
+    "region": "03 - The Climb",
+    "category": [
+      "03 - The Climb"
+    ],
+    "requires": []
+  },
+  {
+    "name": "03 - Can of Coffee",
+    "region": "03 - The Climb",
+    "category": [
+      "03 - The Climb"
+    ],
+    "requires": []
+  },
+  {
+    "name": "03 - Sword (TsuruGR-74)",
+    "region": "03 - The Climb",
+    "category": [
+      "03 - The Climb"
+    ],
+    "requires": []
+  },
+  {
+    "name": "04 - (Jacked Up)",
+    "region": "04 - Jacked Up",
+    "category": [
+      "04 - Jacked Up"
+    ],
+    "requires": []
+  },
+  {
+    "name": "04 - Sword (Sentinel)",
+    "region": "04 - Jacked Up",
+    "category": [
+      "04 - Jacked Up"
+    ],
+    "requires": []
+  },
+  {
+    "name": "04 - Chikara IV Implant",
+    "region": "04 - Jacked Up",
+    "category": [
+      "04 - Jacked Up"
+    ],
+    "requires": []
+  },
+  {
+    "name": "04 - The Climbers Token",
+    "region": "04 - Jacked Up",
+    "category": [
+      "04 - Jacked Up"
+    ],
+    "requires": []
+  },
+  {
+    "name": "04 - Shank",
+    "region": "04 - Jacked Up",
+    "category": [
+      "04 - Jacked Up"
+    ],
+    "requires": []
+  },
+  {
+    "name": "05 - (Breathe In)",
+    "region": "05 - Breathe In",
+    "category": [
+      "05 - Breathe In"
+    ],
+    "requires": []
+  },
+  {
+    "name": "05 - Projector",
+    "region": "05 - Breathe In",
+    "category": [
+      "05 - Breathe In"
+    ],
+    "requires": []
+  },
+  {
+    "name": "05 - Exam Guide",
+    "region": "05 - Breathe In",
+    "category": [
+      "05 - Breathe In"
+    ],
+    "requires": []
+  },
+  {
+    "name": "05 - Home-Made Bomb",
+    "region": "05 - Breathe In",
+    "category": [
+      "05 - Breathe In"
+    ],
+    "requires": []
+  },
+  {
+    "name": "05 - Lemon Tree",
+    "region": "05 - Breathe In",
+    "category": [
+      "05 - Breathe In"
+    ],
+    "requires": []
+  },
+  {
+    "name": "05 - Audio Log (Fear)",
+    "region": "05 - Breathe In",
+    "category": [
+      "05 - Breathe In"
+    ],
+    "requires": []
+  },
+  {
+    "name": "05 - Stolen Firearm",
+    "region": "05 - Breathe In",
+    "category": [
+      "05 - Breathe In"
+    ],
+    "requires": []
+  },
+  {
+    "name": "05 - Sword (Twilight Seisouken)",
+    "region": "05 - Breathe In",
+    "category": [
+      "05 - Breathe In"
+    ],
+    "requires": []
+  },
+  {
+    "name": "05 - Rebreather",
+    "region": "05 - Breathe In",
+    "category": [
+      "05 - Breathe In"
+    ],
+    "requires": []
+  },
+  {
+    "name": "05 - Sword (Yama)",
+    "region": "05 - Breathe In",
+    "category": [
+      "05 - Breathe In"
+    ],
+    "requires": []
+  },
+  {
+    "name": "06 - (Road to Amida)",
+    "region": "06 - Road to Amida",
+    "category": [
+      "06 - Road to Amida"
+    ],
+    "requires": []
+  },
+  {
+    "name": "06 - Credit Card",
+    "region": "06 - Road to Amida",
+    "category": [
+      "06 - Road to Amida"
+    ],
+    "requires": []
+  },
+  {
+    "name": "06 - Architect Bust",
+    "region": "06 - Road to Amida",
+    "category": [
+      "06 - Road to Amida"
+    ],
+    "requires": []
+  },
+  {
+    "name": "06 - Sword (Kinteki Seisouken)",
+    "region": "06 - Road to Amida",
+    "category": [
+      "06 - Road to Amida"
+    ],
+    "requires": []
+  },
+  {
+    "name": "06 - The Hammers Gang Insignia",
+    "region": "06 - Road to Amida",
+    "category": [
+      "06 - Road to Amida"
+    ],
+    "requires": []
+  },
+  {
+    "name": "07 - (Run-up)",
+    "region": "07 - Run-up",
+    "category": [
+      "07 - Run-up"
+    ],
+    "requires": []
+  },
+  {
+    "name": "07 - Food Ration",
+    "region": "07 - Run-up",
+    "category": [
+      "07 - Run-up"
+    ],
+    "requires": []
+  },
+  {
+    "name": "07 - Audio Log (Immortality)",
+    "region": "07 - Run-up",
+    "category": [
+      "07 - Run-up"
+    ],
+    "requires": []
+  },
+  {
+    "name": "07 - Sword (Venom TsuruGR)",
+    "region": "07 - Run-up",
+    "category": [
+      "07 - Run-up"
+    ],
+    "requires": []
+  },
+  {
+    "name": "08 - (The Gatekeeper)",
+    "region": "08 - The Gatekeeper",
+    "category": [
+      "08 - The Gatekeeper"
+    ],
+    "requires": []
+  },
+  {
+    "name": "09 - (Dharma City)",
+    "region": "09 - Dharma City",
+    "category": [
+      "09 - Dharma City"
+    ],
+    "requires": []
+  },
+  {
+    "name": "09 - Sword (Vintage Sentinel)",
+    "region": "09 - Dharma City",
+    "category": [
+      "09 - Dharma City"
+    ],
+    "requires": []
+  },
+  {
+    "name": "09 - Newspaper",
+    "region": "09 - Dharma City",
+    "category": [
+      "09 - Dharma City"
+    ],
+    "requires": []
+  },
+  {
+    "name": "09 - Teddy Bear",
+    "region": "09 - Dharma City",
+    "category": [
+      "09 - Dharma City"
+    ],
+    "requires": []
+  },
+  {
+    "name": "09 - Samsara Corporation Employee ID",
+    "region": "09 - Dharma City",
+    "category": [
+      "09 - Dharma City"
+    ],
+    "requires": []
+  },
+  {
+    "name": "09 - Killer Priest 3000",
+    "region": "09 - Dharma City",
+    "category": [
+      "09 - Dharma City"
+    ],
+    "requires": []
+  },
+  {
+    "name": "10 - (Echoes)",
+    "region": "10 - Echoes",
+    "category": [
+      "10 - Echoes"
+    ],
+    "requires": []
+  },
+  {
+    "name": "10 - Sword (TsuruGR Nini-chan)",
+    "region": "10 - Echoes",
+    "category": [
+      "10 - Echoes"
+    ],
+    "requires": []
+  },
+  {
+    "name": "10 - Sword (Modified Carbon Yama)",
+    "region": "10 - Echoes",
+    "category": [
+      "10 - Echoes"
+    ],
+    "requires": []
+  },
+  {
+    "name": "10 - Audio Log (Trial and Error)",
+    "region": "10 - Echoes",
+    "category": [
+      "10 - Echoes"
+    ],
+    "requires": []
+  },
+  {
+    "name": "10 - Educational Toy",
+    "region": "10 - Echoes",
+    "category": [
+      "10 - Echoes"
+    ],
+    "requires": []
+  },
+  {
+    "name": "10 - Atma Chip",
+    "region": "10 - Echoes",
+    "category": [
+      "10 - Echoes"
+    ],
+    "requires": []
+  },
+  {
+    "name": "10 - Keymaster Insignia",
+    "region": "10 - Echoes",
+    "category": [
+      "10 - Echoes"
+    ],
+    "requires": []
+  },
+  {
+    "name": "11 - (Faster)",
+    "region": "11 - Faster",
+    "category": [
+      "11 - Faster"
+    ],
+    "requires": []
+  },
+  {
+    "name": "11 - Counterfeit Access Card",
+    "region": "11 - Faster",
+    "category": [
+      "11 - Faster"
+    ],
+    "requires": []
+  },
+  {
+    "name": "12 - (In Her Own Image)",
+    "region": "12 - In Her Own Image",
+    "category": [
+      "12 - In Her Own Image"
+    ],
+    "requires": []
+  },
+  {
+    "name": "12 - Sword (Izanami)",
+    "region": "12 - In Her Own Image",
+    "category": [
+      "12 - In Her Own Image"
+    ],
+    "requires": []
+  },
+  {
+    "name": "13 - (The Forbidden Zone)",
+    "region": "13 - The Forbidden Zone",
+    "category": [
+      "13 - The Forbidden Zone"
+    ],
+    "requires": []
+  },
+  {
+    "name": "13 - Audio Log (Trial and Error II)",
+    "region": "13 - The Forbidden Zone",
+    "category": [
+      "13 - The Forbidden Zone"
+    ],
+    "requires": []
+  },
+  {
+    "name": "13 - Whiskey Bottle",
+    "region": "13 - The Forbidden Zone",
+    "category": [
+      "13 - The Forbidden Zone"
+    ],
+    "requires": []
+  },
+  {
+    "name": "13 - Broken Glasses",
+    "region": "13 - The Forbidden Zone",
+    "category": [
+      "13 - The Forbidden Zone"
+    ],
+    "requires": []
+  },
+  {
+    "name": "13 - Broken Blade",
+    "region": "13 - The Forbidden Zone",
+    "category": [
+      "13 - The Forbidden Zone"
+    ],
+    "requires": []
+  },
+  {
+    "name": "13 - Sword (Void Dragon TsuruGR)",
+    "region": "13 - The Forbidden Zone",
+    "category": [
+      "13 - The Forbidden Zone"
+    ],
+    "requires": []
+  },
+  {
+    "name": "14 - (Reign in Hell)",
+    "region": "14 - Reign in Hell",
+    "category": [
+      "14 - Reign in Hell"
+    ],
+    "requires": []
+  },
+  {
+    "name": "14 - Sword (Izanami Unchained)",
+    "region": "14 - Reign in Hell",
+    "category": [
+      "14 - Reign in Hell"
+    ],
+    "requires": []
+  },
+  {
+    "name": "14 - Handheld Console",
+    "region": "14 - Reign in Hell",
+    "category": [
+      "14 - Reign in Hell"
+    ],
+    "requires": []
+  },
+  {
+    "name": "14 - Sword (Dharma Street Yama)",
+    "region": "14 - Reign in Hell",
+    "category": [
+      "14 - Reign in Hell"
+    ],
+    "requires": []
+  },
+  {
+    "name": "14 - Laptop",
+    "region": "14 - Reign in Hell",
+    "category": [
+      "14 - Reign in Hell"
+    ],
+    "requires": []
+  },
+  {
+    "name": "14 - Old Book",
+    "region": "14 - Reign in Hell",
+    "category": [
+      "14 - Reign in Hell"
+    ],
+    "requires": []
+  },
+  {
+    "name": "14 - Audio Log (Victory)",
+    "region": "14 - Reign in Hell",
+    "category": [
+      "14 - Reign in Hell"
+    ],
+    "requires": []
+  },
+  {
+    "name": "15 - (Things You Wouldn't Believe)",
+    "region": "15 - Things You Wouldn't Believe",
+    "category": [
+      "15 - Things You Wouldn't Believe"
+    ],
+    "requires": []
+  },
+  {
+    "name": "15 - Radio Collar",
+    "region": "15 - Things You Wouldn't Believe",
+    "category": [
+      "15 - Things You Wouldn't Believe"
+    ],
+    "requires": []
+  },
+  {
+    "name": "15 - Postal Cards",
+    "region": "15 - Things You Wouldn't Believe",
+    "category": [
+      "15 - Things You Wouldn't Believe"
+    ],
+    "requires": []
+  },
+  {
+    "name": "15 - Last Sword",
+    "region": "15 - Things You Wouldn't Believe",
+    "category": [
+      "15 - Things You Wouldn't Believe"
+    ],
+    "requires": []
+  },
+  {
+    "name": "15 - Audio Log (The Realisation)",
+    "region": "15 - Things You Wouldn't Believe",
+    "category": [
+      "15 - Things You Wouldn't Believe"
+    ],
+    "requires": []
+  },
+  {
+    "name": "15 - Augmented Eye",
+    "region": "15 - Things You Wouldn't Believe",
+    "category": [
+      "15 - Things You Wouldn't Believe"
+    ],
+    "requires": []
+  },
+  {
+    "name": "16 - (The Summit)",
+    "region": "16 - The Summit",
+    "category": [
+      "16 - The Summit"
+    ],
+    "requires": []
+  },
+  {
+    "name": "17 - (The Monster)",
+    "victory": false,
+    "region": "17 - The Monster",
+    "category": [
+      "17 - The Monster"
+    ],
+    "requires": [],
+    "place_item": [
+      "Dharma City Liberation"
+    ]
+  },
+  {
+    "name": "03 - Blink Unlock",
+    "region": "03 - The Climb",
+    "category": [
+      "Cybervoid Unlocks"
+    ],
+    "requires": []
+  },
+  {
+    "name": "06 - Tempest Unlock",
+    "region": "06 - Road to Amida",
+    "category": [
+      "Cybervoid Unlocks"
+    ],
+    "requires": []
+  },
+  {
+    "name": "12 - Surge Unlock",
+    "region": "12 - In Her Own Image",
+    "category": [
+      "Cybervoid Unlocks"
+    ],
+    "requires": []
+  },
+  {
+    "name": "14 - Overlord Unlock",
+    "region": "14 - Reign in Hell",
+    "category": [
+      "Cybervoid Unlocks"
+    ],
+    "requires": []
+  },
+  {
+    "victory": true,
+    "name": "VICTORY",
+    "region": "17 - The Monster",
+    "category": [
+      "(GOAL)"
+    ],
+    "requires": "|Dharma City Liberation|"
+  },
+  {
+    "name": "06 - Ghostrunner Poster",
+    "region": "06 - Road to Amida",
+    "category": [
+      "06 - Road to Amida"
+    ],
+    "requires": []
+  }
+]

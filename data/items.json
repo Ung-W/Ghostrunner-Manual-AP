@@ -1,0 +1,426 @@
+[
+  {
+    "count": 1,
+    "name": "Zipline",
+    "category": [
+      "Environment Abilities"
+    ],
+    "progression": true
+  },
+  {
+    "count": 1,
+    "name": "Hack Ability",
+    "category": [
+      "Environment Abilities"
+    ],
+    "progression": true
+  },
+  {
+    "count": 1,
+    "name": "High Jump Augment",
+    "category": [
+      "Augments"
+    ],
+    "progression": true
+  },
+  {
+    "count": 1,
+    "name": "Slowmo Augment",
+    "category": [
+      "Augments"
+    ],
+    "progression": true
+  },
+  {
+    "count": 1,
+    "name": "Shuriken Augment",
+    "category": [
+      "Augments"
+    ],
+    "progression": true
+  },
+  {
+    "count": 1,
+    "name": "Blink",
+    "category": [
+      "Abilities"
+    ],
+    "progression": true
+  },
+  {
+    "count": 1,
+    "name": "Tempest",
+    "category": [
+      "Abilities"
+    ],
+    "progression": true
+  },
+  {
+    "count": 1,
+    "name": "Surge",
+    "category": [
+      "Abilities"
+    ],
+    "progression": true
+  },
+  {
+    "count": 1,
+    "name": "Overlord",
+    "category": [
+      "Abilities"
+    ],
+    "progression": true
+  },
+  {
+    "count": "1",
+    "name": "Reload Level",
+    "category": [
+      "Traps"
+    ],
+    "trap": true
+  },
+  {
+    "count": "1",
+    "name": "Instant Restart",
+    "category": [
+      "Traps"
+    ],
+    "trap": true
+  },
+  {
+    "count": 1,
+    "name": "Sensory Boost",
+    "category": [
+      "Abilities"
+    ],
+    "useful": true
+  },
+  {
+    "count": 1,
+    "name": "Dash: Extra charge",
+    "category": [
+      "Upgrades : Dash"
+    ],
+    "useful": true
+  },
+  {
+    "count": 1,
+    "name": "Dash: Cooldown",
+    "category": [
+      "Upgrades : Dash"
+    ],
+    "useful": true
+  },
+  {
+    "count": 1,
+    "name": "Dash: Extra charge II",
+    "category": [
+      "Upgrades : Dash"
+    ],
+    "useful": true
+  },
+  {
+    "count": 1,
+    "name": "Dash: Invincible",
+    "category": [
+      "Upgrades : Dash"
+    ],
+    "useful": true
+  },
+  {
+    "count": 1,
+    "name": "Dash: Extra Charge III",
+    "category": [
+      "Upgrades : Dash"
+    ],
+    "useful": true
+  },
+  {
+    "count": 1,
+    "name": "Deflect: Reflect",
+    "category": [
+      "Upgrades : Deflect"
+    ],
+    "useful": true
+  },
+  {
+    "count": 1,
+    "name": "Deflect: Boost",
+    "category": [
+      "Upgrades : Deflect"
+    ],
+    "useful": true
+  },
+  {
+    "count": 1,
+    "name": "Focus: Elimination Boost",
+    "category": [
+      "Upgrades : Deflect"
+    ],
+    "useful": true
+  },
+  {
+    "count": 1,
+    "name": "Deflect: Absorb",
+    "category": [
+      "Upgrades : Deflect"
+    ],
+    "useful": true
+  },
+  {
+    "count": 1,
+    "name": "Sensory Microbooster",
+    "category": [
+      "Upgrades : Deflect"
+    ],
+    "useful": true
+  },
+  {
+    "count": 1,
+    "name": "Aim Time Boost",
+    "category": [
+      "Upgrades : Skills"
+    ],
+    "useful": true
+  },
+  {
+    "count": 1,
+    "name": "Cybervoid Attunement",
+    "category": [
+      "Upgrades : Skills"
+    ],
+    "useful": true
+  },
+  {
+    "count": 1,
+    "name": "Focus: Overclock",
+    "category": [
+      "Upgrades : Skills"
+    ],
+    "useful": true
+  },
+  {
+    "count": 1,
+    "name": "Focus: Technique Boost",
+    "category": [
+      "Upgrades : Skills"
+    ],
+    "useful": true
+  },
+  {
+    "count": 1,
+    "name": "Detector",
+    "category": [
+      "Upgrades : Map"
+    ],
+    "useful": true
+  },
+  {
+    "count": 1,
+    "name": "Tactical Overlay",
+    "category": [
+      "Upgrades : Map"
+    ],
+    "useful": true
+  },
+  {
+    "count": 1,
+    "name": "Sensory Boost: X-Ray",
+    "category": [
+      "Upgrades : Map"
+    ],
+    "useful": true
+  },
+  {
+    "count": 1,
+    "name": "Sensory Boost: Slowdown",
+    "category": [
+      "Upgrades : Map"
+    ],
+    "useful": true
+  },
+  {
+    "count": 1,
+    "name": "Tactical Overlay II",
+    "category": [
+      "Upgrades : Map"
+    ],
+    "useful": true
+  },
+  {
+    "count": 1,
+    "name": "Blink: Range",
+    "category": [
+      "Upgrades : Blink"
+    ],
+    "useful": true
+  },
+  {
+    "count": 1,
+    "name": "Blink: Area",
+    "category": [
+      "Upgrades : Blink"
+    ],
+    "useful": true
+  },
+  {
+    "count": 1,
+    "name": "Blink: Extra Charge",
+    "category": [
+      "Upgrades : Blink"
+    ],
+    "useful": true
+  },
+  {
+    "count": 1,
+    "name": "Tempest: Range",
+    "category": [
+      "Upgrades : Tempest"
+    ],
+    "useful": true
+  },
+  {
+    "count": 1,
+    "name": "Tempest: Multikill Refund",
+    "category": [
+      "Upgrades : Tempest"
+    ],
+    "useful": true
+  },
+  {
+    "count": 1,
+    "name": "Surge: Size",
+    "category": [
+      "Upgrades : Surge"
+    ],
+    "useful": true
+  },
+  {
+    "count": 1,
+    "name": "Surge: Range",
+    "category": [
+      "Upgrades : Surge"
+    ],
+    "useful": true
+  },
+  {
+    "count": 1,
+    "name": "Surge: Speed",
+    "category": [
+      "Upgrades : Surge"
+    ],
+    "useful": true
+  },
+  {
+    "count": 1,
+    "name": "Surge: Extra Charges",
+    "category": [
+      "Upgrades : Surge"
+    ],
+    "useful": true
+  },
+  {
+    "count": 1,
+    "name": "Overlord: Duration",
+    "category": [
+      "Upgrades : Overlord"
+    ],
+    "useful": true
+  },
+  {
+    "count": 1,
+    "name": "Tom Pass",
+    "category": [
+      "Dharma Access"
+    ],
+    "progression_skip_balancing": true
+  },
+  {
+    "count": 1,
+    "name": "Hel Pass",
+    "category": [
+      "Dharma Access"
+    ],
+    "progression_skip_balancing": true
+  },
+  {
+    "count": 1,
+    "name": "Mara Pass",
+    "category": [
+      "Dharma Access"
+    ],
+    "progression_skip_balancing": true
+  },
+  {
+    "count": 1,
+    "name": "Architect Pass",
+    "category": [
+      "Dharma Access"
+    ],
+    "progression_skip_balancing": true
+  },
+  {
+    "count": 1,
+    "name": "Dharma City Liberation",
+    "category": [
+      "Victory"
+    ],
+    "progression_skip_balancing": true
+  },
+  {
+    "count": 1,
+    "name": "Cybervoid 02 Pass",
+    "category": [
+      "Dharma Access"
+    ],
+    "progression_skip_balancing": true
+  },
+  {
+    "count": 1,
+    "name": "Cybervoid 03 Pass",
+    "category": [
+      "Dharma Access"
+    ],
+    "progression_skip_balancing": true
+  },
+  {
+    "count": 1,
+    "name": "Cybervoid 05 Pass",
+    "category": [
+      "Dharma Access"
+    ],
+    "progression_skip_balancing": true
+  },
+  {
+    "count": 1,
+    "name": "Cybervoid 06 Pass",
+    "category": [
+      "Dharma Access"
+    ],
+    "progression_skip_balancing": true
+  },
+  {
+    "count": 1,
+    "name": "Cybervoid 10 Pass",
+    "category": [
+      "Dharma Access"
+    ],
+    "progression_skip_balancing": true
+  },
+  {
+    "count": 1,
+    "name": "Cybervoid 12 Pass",
+    "category": [
+      "Dharma Access"
+    ],
+    "progression_skip_balancing": true
+  },
+  {
+    "count": 1,
+    "name": "Cybervoid 14 Pass",
+    "category": [
+      "Dharma Access"
+    ],
+    "progression_skip_balancing": true
+  }
+]

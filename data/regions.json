@@ -1,0 +1,71 @@
+{
+  "01 - An Awakening": {
+    "connects_to": [],
+    "starting": false,
+    "requires": []
+  },
+  "02 - A Look Inside": {
+    "connects_to": [],
+    "requires": "|Cybervoid 02 Pass|"
+  },
+  "03 - The Climb": {
+    "connects_to": [],
+    "requires": "|Cybervoid 03 Pass| AND |Blink|"
+  },
+  "04 - Jacked Up": {
+    "connects_to": [],
+    "requires": []
+  },
+  "05 - Breathe In": {
+    "connects_to": [],
+    "requires": "|Slowmo Augment| AND |Cybervoid 05 Pass|"
+  },
+  "06 - Road to Amida": {
+    "connects_to": [],
+    "requires": "|Hack Ability| AND |Shuriken Augment| AND |Cybervoid 06 Pass| AND |Tempest|"
+  },
+  "07 - Run-up": {
+    "connects_to": [],
+    "requires": []
+  },
+  "08 - The Gatekeeper": {
+    "connects_to": [],
+    "requires": "|Tom Pass|"
+  },
+  "09 - Dharma City": {
+    "connects_to": [],
+    "requires": "|Zipline| AND |High Jump Augment|"
+  },
+  "10 - Echoes": {
+    "connects_to": [],
+    "requires": "|Zipline| AND |Hack Ability| AND |High Jump Augment| AND |Cybervoid 10 Pass|"
+  },
+  "11 - Faster": {
+    "connects_to": [],
+    "requires": "|Hack Ability| AND |Shuriken Augment| AND |Zipline| AND |High Jump Augment|"
+  },
+  "12 - In Her Own Image": {
+    "connects_to": [],
+    "requires": "|Hel Pass| AND |Cybervoid 12 Pass| AND |Zipline| AND |Surge|"
+  },
+  "13 - The Forbidden Zone": {
+    "connects_to": [],
+    "requires": "|Zipline| AND |High Jump Augment|"
+  },
+  "14 - Reign in Hell": {
+    "connects_to": [],
+    "requires": "|Zipline| AND |High Jump Augment| AND |Shuriken Augment| AND |Cybervoid 14 Pass| AND |Overlord|"
+  },
+  "15 - Things You Wouldn't Believe": {
+    "connects_to": [],
+    "requires": "|Zipline| AND |High Jump Augment| AND |Shuriken Augment|"
+  },
+  "16 - The Summit": {
+    "connects_to": [],
+    "requires": "|Mara Pass|"
+  },
+  "17 - The Monster": {
+    "connects_to": [],
+    "requires": "|Tom Pass| AND |Hel Pass| AND |Mara Pass| AND |Architect Pass|"
+  }
+}
