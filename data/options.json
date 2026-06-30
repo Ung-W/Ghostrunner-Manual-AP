@@ -24,7 +24,10 @@
     "user": {
         "project_hel_toggle":{
             "display_name": "Project_Hel DLC",
-            "description": "Add Project_Hel's levels and collectibles in the pool (need Hel Memory X to access level X)",
+            "description": [
+                "Add Project_Hel's levels and collectibles in the pool (need Hel Memory X to access level X)",
+                " => Add 7 'Hel Memory X' items and 32 checks to the pool"
+            ],
             "type": "Toggle",
             "default": false
         },
@@ -42,18 +45,6 @@
             ],
             "type": "Toggle",
             "default": false
-        },
-        "_starting_abilities": {
-            "display_name": "Starting abilities",
-            "description": [
-                "Start the game with x number of abilities (Blink, Tempest, Surge, Overlord).",
-                "The abilties given are random."
-            ],
-            "type": "Range",
-            "range_start": 0,
-            "range_end": 4,
-            "default": 0
         }
     }
-
 }

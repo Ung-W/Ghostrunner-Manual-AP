@@ -17,6 +17,8 @@ from ..Helpers import is_option_enabled, get_option_value, format_state_prog_ite
 # calling logging.info("message") anywhere below in this file will output the message to both console and log file
 import logging
 
+import inspect
+
 ########################################################################################
 ## Order of method calls when the world generates:
 ##    1. create_regions - Creates regions and locations
@@ -38,7 +40,13 @@ def hook_get_filler_item_name(world: World, multiworld: MultiWorld, player: int)
 
 # Called before regions and locations are created. Not clear why you'd want this, but it's here. Victory location is included, but Victory event is not placed yet.
 def before_create_regions(world: World, multiworld: MultiWorld, player: int):
-    pass
+    if not world.options.vanilla_abilities_unlock.value:
+        return
+    
+    region_table["03 - The Climb"]["requires"] = "|Cybervoid 03 Pass|"
+    region_table["06 - Road to Amida"]["requires"] = "|Hack Ability| AND |Shuriken Augment| AND |Cybervoid 06 Pass|"
+    region_table["12 - In Her Own Image"]["requires"] = "|Zipline| AND |Hel Pass| AND |Cybervoid 12 Pass|"
+    region_table["14 - Reign in Hell"]["requires"] = "|Shuriken Augment| AND |High Jump Augment| AND |Zipline| AND |Cybervoid 14 Pass|"
 
 # Called after regions and locations are created, in case you want to see or modify that information. Victory location is included.
 def after_create_regions(world: World, multiworld: MultiWorld, player: int):
@@ -70,18 +78,41 @@ def before_create_items_starting(item_pool: list, world: World, multiworld: Mult
 
 # The item pool after starting items are processed but before filler is added, in case you want to see the raw item pool at that stage
 def before_create_items_filler(item_pool: list, world: World, multiworld: MultiWorld, player: int) -> list:
-    # Use this hook to remove items from the item pool
-    itemNamesToRemove: list[str] = [] # List of item names
+    starting_abilities_count = world.options.starting_abilities.value
 
-    # Add your code here to calculate which items to remove.
-    #
-    # Because multiple copies of an item can exist, you need to add an item name
-    # to the list multiple times if you want to remove multiple copies of it.
+    # if they put in something other than a number, make it a number and the default of 0
+    if type(starting_abilities_count) != int:
+        starting_abilities_count = 0
 
-    for itemName in itemNamesToRemove:
-        item = next(i for i in item_pool if i.name == itemName)
-        item_pool.remove(item)
+    starting_items = [
+        {
+            "items": ["Blink", "Tempest", "Surge", "Overlord"],
+            "random": starting_abilities_count
+        }
+    ]
 
+    for starting in starting_items:
+        # get all items that have at least the category or categories we want
+        possible_item_names = starting['items']
+        
+        # remove any duplicate names from the list of possible items
+        possible_item_names = set(possible_item_names)
+
+        # we add the list of items that have this specific category to our possible items
+        possible_items = [
+            i for i in item_pool 
+                if i.name in possible_item_names
+        ]
+        
+        # pick a random possible item(s) to start with, then precollect them and,
+        #   since we just took them, remove them from the item pool
+        for _ in range(starting['random']): # loops from 0 to starting['random'] - 1
+            random_starting_item = world.random.choice(possible_items)
+            multiworld.push_precollected(random_starting_item)
+            possible_items.remove(random_starting_item) # don't allow choosing the exact same item again
+            item_pool.remove(random_starting_item) # remove it from the pool since we're starting with it
+
+    # once we're done with everything, return our modified item pool
     return item_pool
 
     # Some other useful hook options:
@@ -103,13 +134,7 @@ def before_set_rules(world: World, multiworld: MultiWorld, player: int):
 # Called after rules for accessing regions and locations are created, in case you want to see or modify that information.
 def after_set_rules(world: World, multiworld: MultiWorld, player: int):
     # Use this hook to modify the access rules for a given location
-
-    def Example_Rule(state: CollectionState) -> bool:
-        # Calculated rules take a CollectionState object and return a boolean
-        # True if the player can access the location
-        # CollectionState is defined in BaseClasses
-        return True
-
+    pass
     ## Common functions:
     # location = world.get_location(location_name, player)
     # location.access_rule = Example_Rule
@@ -130,7 +155,28 @@ def after_create_item(item: ManualItem, world: World, multiworld: MultiWorld, pl
 
 # This method is run towards the end of pre-generation, before the place_item options have been handled and before AP generation occurs
 def before_generate_basic(world: World, multiworld: MultiWorld, player: int):
-    pass
+    if not world.options.vanilla_abilities_unlock.value:
+        return
+    
+    abilities = ["Blink", "Tempest", "Surge", "Overlord"]
+        
+    abilities_name = [
+        i for i in multiworld.get_items()
+            if i.player == player and i.name in abilities
+    ]
+    
+    ability_locations = {
+        "Blink" : '03 - Blink Unlock',
+        "Tempest" : '06 - Tempest Unlock', 
+        "Surge" : '12 - Surge Unlock', 
+        "Overlord" : '14 - Overlord Unlock'
+        }
+    
+    for ab in abilities_name:
+        location = multiworld.get_location(ability_locations[ab.name], player)
+        location.place_locked_item(ab)
+        multiworld.itempool.remove(ab)
+
 
 # This method is run at the very end of pre-generation, once the place_item options have been handled and before AP generation occurs
 def after_generate_basic(world: World, multiworld: MultiWorld, player: int):

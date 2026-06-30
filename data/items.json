@@ -72,7 +72,7 @@
     "progression": true
   },
   {
-    "count": "1",
+    "count": "0",
     "name": "Reload Level",
     "category": [
       "Traps"
@@ -80,7 +80,7 @@
     "trap": true
   },
   {
-    "count": "1",
+    "count": "0",
     "name": "Instant Restart",
     "category": [
       "Traps"

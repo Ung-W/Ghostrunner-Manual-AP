@@ -25,15 +25,29 @@ from typing import Type, Any
 # To add an option, use the before_options_defined hook below and something like this:
 #   options["total_characters_to_win_with"] = TotalCharactersToWinWith
 #
-class TotalCharactersToWinWith(Range):
-    """Instead of having to beat the game with all characters, you can limit locations to a subset of character victory locations."""
-    display_name = "Number of characters to beat the game with before victory"
-    range_start = 10
-    range_end = 50
-    default = 50
+class StartingAbilities(Range):
+    """
+        Number of starting abilities selected at random (Blink, Tempest, Surge, Overlord).
+        Not recommended to use with Vanilla abilities unlock enabled.
+    """
+    display_name = "Random Starting Abilities"
+    range_start = 0
+    range_end = 4
+    default = 0
+    
+class VanillaAbilitiesUnlock(Toggle):
+    """
+        All ability are placed in their unlock locations. (except Sensory Boost because there's no location for it)
+        Levels that require an ability to access will not need them, you still need the other requirements.
+        Not recommended to use with Random starting abilities.
+    """
+    display_name = "Vanilla Abilities Unlock"
+    default = False
 
 # This is called before any manual options are defined, in case you want to define your own with a clean slate or let Manual define over them
 def before_options_defined(options: dict[str, Type[Option[Any]]]) -> dict[str, Type[Option[Any]]]:
+    options["starting_abilities"] = StartingAbilities
+    options["vanilla_abilities_unlock"] = VanillaAbilitiesUnlock
     return options
 
 # This is called after any manual options are defined, in case you want to see what options are defined or want to modify the defined options
