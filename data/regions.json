@@ -2,7 +2,7 @@
   "01 - An Awakening": {
     "connects_to": [],
     "starting": false,
-    "requires": []
+    "requires": ""
   },
   "02 - A Look Inside": {
     "connects_to": [],
@@ -14,7 +14,7 @@
   },
   "04 - Jacked Up": {
     "connects_to": [],
-    "requires": []
+    "requires": ""
   },
   "05 - Breathe In": {
     "connects_to": [],
@@ -26,7 +26,7 @@
   },
   "07 - Run-up": {
     "connects_to": [],
-    "requires": []
+    "requires": ""
   },
   "08 - The Gatekeeper": {
     "connects_to": [],
@@ -67,5 +67,33 @@
   "17 - The Monster": {
     "connects_to": [],
     "requires": "|Tom Pass| AND |Hel Pass| AND |Mara Pass| AND |Architect Pass|"
+  },
+  "H1 - Another Awakening": {
+    "connects_to": [],
+    "requires": "|Hel Memory 1|"
+  },
+  "H2 - No Other Choice": {
+    "connects_to": [],
+    "requires": "|Hel Memory 2|"
+  },
+  "H3 - Excessive Force": {
+    "connects_to": [],
+    "requires": "|Hel Memory 3|"
+  },
+  "H4 - Down Below": {
+    "connects_to": [],
+    "requires": "|Hel Memory 4|"
+  },
+  "H5 - My Friend": {
+    "connects_to": [],
+    "requires": "|Hel Memory 5|"
+  },
+  "H6 - Beyond The Barricade": {
+    "connects_to": [],
+    "requires": "|Hel Memory 6|"
+  },
+  "H7 - A Place To Rest": {
+    "connects_to": [],
+    "requires": "|Hel Memory 7|"
   }
 }

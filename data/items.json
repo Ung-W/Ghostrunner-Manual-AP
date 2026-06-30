@@ -422,5 +422,61 @@
       "Dharma Access"
     ],
     "progression_skip_balancing": true
+  },
+  {
+    "count": 1,
+    "name": "Hel Memory 1",
+    "category": [
+      "Project Hel Access"
+    ],
+    "progression_skip_balancing": true
+  },
+  {
+    "count": 1,
+    "name": "Hel Memory 2",
+    "category": [
+      "Project Hel Access"
+    ],
+    "progression_skip_balancing": true
+  },
+  {
+    "count": 1,
+    "name": "Hel Memory 3",
+    "category": [
+      "Project Hel Access"
+    ],
+    "progression_skip_balancing": true
+  },
+  {
+    "count": 1,
+    "name": "Hel Memory 4",
+    "category": [
+      "Project Hel Access"
+    ],
+    "progression_skip_balancing": true
+  },
+  {
+    "count": 1,
+    "name": "Hel Memory 5",
+    "category": [
+      "Project Hel Access"
+    ],
+    "progression_skip_balancing": true
+  },
+  {
+    "count": 1,
+    "name": "Hel Memory 6",
+    "category": [
+      "Project Hel Access"
+    ],
+    "progression_skip_balancing": true
+  },
+  {
+    "count": 1,
+    "name": "Hel Memory 7",
+    "category": [
+      "Project Hel Access"
+    ],
+    "progression_skip_balancing": true
   }
 ]

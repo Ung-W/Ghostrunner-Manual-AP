@@ -15,6 +15,7 @@ Ghostrunner is a hardcore FPP (First Person Perspective) slasher packed with lig
   - Boss Passes (unlocks boss fights) : TOM, Hel, Mara
   - Architect Pass
   - Cybervoid Passes (mcguffins to access levels containing a cybervoid segment)
+  - Hel Memory X : give access to the Xth level of the Project_Hel DLC
 ### Useful
 - Abilities Upgrades
 ### Traps
