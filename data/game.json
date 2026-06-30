@@ -3,5 +3,14 @@
   "game": "Ghostrunner",
   "creator": "Evoker",
   "filler_item_name": "Cyberjunk",
-  "starting_items": []
+  "starting_items": [
+    {
+        "items": ["Sensory Boost"],
+        "yaml_option": ["sensory_boost_from_start"]
+    },
+    {
+        "item_categories": ["Cybervoid Access"],
+        "yaml_option": ["all_cybervoid_access"]
+    }
+  ]
 }

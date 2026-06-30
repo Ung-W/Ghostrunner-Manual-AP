@@ -1,26 +1,26 @@
 {
     "Project Hel Access" : {
-        "yaml_option" : ["Project_Hel_Toggle"]
+        "yaml_option" : ["project_hel_toggle"]
     },
     "H1 - Another Awakening" : {
-        "yaml_option" : ["Project_Hel_Toggle"]
+        "yaml_option" : ["project_hel_toggle"]
     },
     "H2 - No Other Choice" : {
-        "yaml_option" : ["Project_Hel_Toggle"]
+        "yaml_option" : ["project_hel_toggle"]
     },
     "H3 - Excessive Force" : {
-        "yaml_option" : ["Project_Hel_Toggle"]
+        "yaml_option" : ["project_hel_toggle"]
     },
     "H4 - Down Below" : {
-        "yaml_option" : ["Project_Hel_Toggle"]
+        "yaml_option" : ["project_hel_toggle"]
     },
     "H5 - My Friend" : {
-        "yaml_option" : ["Project_Hel_Toggle"]
+        "yaml_option" : ["project_hel_toggle"]
     },
     "H6 - Beyond The Barricade" : {
-        "yaml_option" : ["Project_Hel_Toggle"]
+        "yaml_option" : ["project_hel_toggle"]
     },
     "H7 - A Place To Rest" : {
-        "yaml_option" : ["Project_Hel_Toggle"]
+        "yaml_option" : ["project_hel_toggle"]
     }
 }

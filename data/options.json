@@ -22,16 +22,37 @@
         }
     },
     "user": {
-        "Project_Hel_Toggle":{
+        "project_hel_toggle":{
             "display_name": "Project_Hel DLC",
             "description": "Add Project_Hel's levels and collectibles in the pool (need Hel Memory X to access level X)",
             "type": "Toggle",
-            "visibility": [
-                "simple_ui",
-                "complex_ui",
-                "template"
-            ],
             "default": false
+        },
+        "sensory_boost_from_start": {
+            "display_name": "Start with Sensory Boost",
+            "description": "Start the game with the Sensory Boost ability.",
+            "type": "Toggle",
+            "default": false
+        },
+        "all_cybervoid_access": {
+            "display_name": "Start with All Cyberpass",
+            "description": [
+                "Start the game with all Cyberpasses.",
+                "You still need the other levels requirements"
+            ],
+            "type": "Toggle",
+            "default": false
+        },
+        "_starting_abilities": {
+            "display_name": "Starting abilities",
+            "description": [
+                "Start the game with x number of abilities (Blink, Tempest, Surge, Overlord).",
+                "The abilties given are random."
+            ],
+            "type": "Range",
+            "range_start": 0,
+            "range_end": 4,
+            "default": 0
         }
     }
 
